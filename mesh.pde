@@ -22,6 +22,10 @@ void draw(){
 background(128);
 update();
 show();
+if(frameCount == 100){
+  saveFrame("img.png");
+  exit();
+}
 }
 
 
